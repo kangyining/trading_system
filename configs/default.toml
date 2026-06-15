@@ -1,0 +1,286 @@
+[paths]
+database = "data/tom.sqlite"
+reports = "reports"
+watchlist = "configs/watchlist.csv"
+market_data = "data/market_data"
+manual_prices = "data/market_data/manual"
+market_data_symbol_aliases = "data/market_data/source_exports/provider_symbol_aliases.csv"
+fundamentals = "data/fundamentals/manual/fundamentals.csv"
+estimates = "data/fundamentals/manual/estimates.csv"
+etf_navs = "data/etf/manual/etf_navs.csv"
+etf_holdings = "data/etf/manual/etf_holdings.csv"
+portfolio_positions = "data/portfolio/manual/positions.csv"
+portfolio_cash = "data/portfolio/manual/cash.csv"
+analyst_revisions = "data/signals/manual/analyst_revisions.csv"
+analyst_revision_source_export = "data/signals/source_exports/analyst_revision_source_export.csv"
+analyst_revision_source_exports_dir = "data/signals/source_exports"
+news_catalysts = "data/signals/manual/news_catalysts.csv"
+trader_commentary = "data/signals/manual/trader_commentary.csv"
+trader_commentary_aliases = "data/signals/manual/trader_commentary_instrument_aliases.csv"
+trader_commentary_label_dispositions = "data/signals/manual/trader_commentary_label_dispositions.csv"
+trader_commentary_exports = "data/signals/source_exports/trader_commentary"
+trader_commentary_browser_capture = "data/signals/browser_captures/trader_commentary"
+trader_commentary_discord_capture = "data/signals/discord_captures/trader_commentary"
+short_interest = "data/signals/manual/short_interest.csv"
+options_chain = "data/options/manual/options_chain.csv"
+options_positions = "data/options/manual/options_positions.csv"
+options_chain_source_exports = "data/options/source_exports"
+account_source_exports = "data/account/source_exports"
+options_chain_cache = "data/options/cache/chains"
+short_interest_cache = "data/signals/cache/short_interest"
+news_catalyst_source_exports_dir = "data/signals/source_exports/news_catalysts"
+news_catalyst_cache = "data/signals/cache/news_catalysts"
+insider_cache = "data/signals/cache/insider_transactions"
+fundamental_cache = "data/fundamentals/cache"
+universe_candidates = "configs/universe_candidates.csv"
+sector_benchmarks = "configs/sector_benchmarks.csv"
+research_recommendations = "data/research/manual/research_recommendations.csv"
+foreign_equity_identity = "data/research/source_exports/foreign_equity_identity.csv"
+external_research_signals_db = "../research/research-signals/data/x_posts.sqlite"
+cik_map = "configs/cik_map.csv"
+stock_splits = "configs/stock_splits.csv"
+
+[market_data]
+primary_source = "stooq"
+secondary_source = "yahoo_chart"
+mode = "auto"
+lookback_days = 800
+stale_after_days = 7
+minimum_history_days = 252
+
+[valuation]
+model_version = "valuation_mvp_v1"
+default_uncertainty_band = 0.25
+minimum_methods = 1
+minimum_peer_count = 2
+stale_fundamentals_after_days = 550
+stale_estimates_after_days = 120
+
+[etf]
+model_version = "etf_nav_mvp_v1"
+default_premium_discount_band = 0.005
+stale_nav_after_days = 7
+stale_holdings_after_days = 14
+minimum_holdings = 10
+premium_discount_history_days = 60
+
+[fundamentals]
+seed_years = 3
+
+[fundamental_benchmarks]
+model_version = "fundamental_benchmark_mvp_v1"
+minimum_sector_peer_count = 3
+minimum_industry_peer_count = 2
+
+[sec]
+user_agent = "TargetOpportunityMonitor/0.1 research@example.com"
+
+[ibkr]
+host = "127.0.0.1"
+paper_port = 4002
+live_port = 4001
+client_id = 930
+timeout_seconds = 12
+market_data_type = "delayed_frozen"
+
+[scoring]
+equity_model_version = "equity_score_mvp_v1"
+etf_model_version = "etf_score_mvp_v1"
+equity_threshold_set = "equity_default"
+etf_threshold_set = "etf_liquid_index"
+
+[alerts]
+equity_model_version = "equity_alert_mvp_v1"
+etf_model_version = "etf_alert_mvp_v1"
+equity_threshold_set = "equity_default"
+etf_threshold_set = "etf_liquid_index"
+minimum_bullish_valuation_gap = 0.10
+minimum_expected_value_score = 70
+minimum_confidence_score = 60
+minimum_liquidity_score = 60
+minimum_risk_score = 40
+minimum_data_quality_score = 75
+watch_gap_threshold = 0.15
+watch_opportunity_score = 65
+bearish_overvaluation_gap = -0.10
+risk_warning_score_below = 35
+etf_watch_nav_discount_gap = 0.001
+etf_action_nav_discount_gap = 0.005
+etf_premium_warning_gap = -0.005
+etf_minimum_opportunity_score = 65
+etf_minimum_liquidity_score = 70
+etf_minimum_risk_score = 50
+etf_minimum_data_quality_score = 75
+
+[portfolio]
+model_version = "portfolio_context_mvp_v1"
+base_currency = "USD"
+default_max_position_weight = 0.15
+default_starter_position_weight = 0.03
+default_add_position_weight = 0.05
+cash_reserve_weight = 0.05
+max_sector_weight = 0.35
+stale_positions_after_days = 14
+
+[options]
+model_version = "options_sell_put_mvp_v1"
+default_min_dte = 7
+default_max_dte = 60
+min_annualized_premium_yield = 0.10
+min_open_interest = 100
+min_volume = 10
+assignment_buffer_pct = 0.10
+use_range_filter = true
+chain_source = "auto"
+option_fetch_universe = "scoreable_plus_commentary_options"
+ibkr_exchange = "SMART"
+ibkr_currency = "USD"
+chain_stale_after_minutes = 30
+max_expirations_per_ticker = 4
+max_strikes_per_expiration = 12
+strike_window_pct = 0.30
+fetch_puts_only = true
+auto_fetch_daily = true
+auto_fetch_intraday = false
+max_tickers_per_run = 3
+risk_model_version = "options_risk_margin_mvp_v1"
+risk_margin_model = "cash_secured_proxy"
+max_single_contract_notional_weight = 0.05
+max_total_assignment_notional_weight = 0.20
+minimum_cash_reserve_after_assignment = 0.05
+downside_scenario_pcts = [-0.05, -0.10, -0.20]
+reference_instrument_risk_warning = true
+outcome_model_version = "options_outcome_mvp_v1"
+position_model_version = "options_position_ledger_mvp_v1"
+lifecycle_model_version = "options_lifecycle_mvp_v1"
+realized_pl_model_version = "options_realized_pl_mvp_v1"
+option_multiplier = 100
+position_stale_after_days = 7
+assignment_tracking_enabled = true
+outcome_horizons = ["5d", "20d", "expiration"]
+outcome_use_underlying_prices_only = true
+
+[signals]
+analyst_revision_model_version = "analyst_revision_mvp_v1"
+analyst_revision_shadow_mode = true
+news_catalyst_model_version = "news_catalyst_mvp_v1"
+news_catalyst_shadow_mode = true
+news_catalyst_stale_after_days = 30
+news_catalyst_provider_order = ["alpha_vantage", "marketaux", "eodhd", "finnhub", "fmp", "x_recent_search", "truth_social_public", "source_export"]
+news_catalyst_enabled_providers = ["alpha_vantage", "marketaux", "eodhd", "finnhub", "fmp", "x_recent_search", "truth_social_public", "source_export"]
+news_catalyst_source_policy = "weighted_median"
+news_catalyst_lookback_days = 14
+news_catalyst_max_items_per_ticker = 5
+news_catalyst_disagreement_warning_threshold = 15.0
+news_catalyst_high_disagreement_threshold = 30.0
+news_catalyst_min_sources_for_aggregate = 1
+news_catalyst_provider_request_budget = 3
+news_catalyst_provider_retry_delay_seconds = 1.0
+news_catalyst_cache_stale_hours = 24
+news_catalyst_use_cache = true
+news_catalyst_text_backfill_enabled = true
+news_catalyst_text_backfill_model_version = "news_text_lexicon_mvp_v1"
+news_catalyst_min_numeric_coverage = 13
+news_catalyst_social_accounts = ["KobeissiLetter"]
+news_catalyst_manual_influencer_sources = ["serenity", "kobeissi_letter"]
+insider_activity_model_version = "insider_activity_mvp_v1"
+insider_activity_shadow_mode = true
+insider_activity_lookback_days = 180
+insider_activity_stale_after_days = 14
+insider_activity_fetch_limit_per_ticker = 40
+insider_activity_max_tickers_per_run = 13
+insider_activity_use_cache = true
+insider_activity_sec_request_delay_seconds = 0.2
+insider_activity_sec_rate_limit_cooldown_seconds = 60
+insider_activity_stop_on_rate_limit = true
+insider_activity_max_live_form4_fetches_per_ticker = 10
+insider_activity_skip_successful_fetch_same_day = true
+insider_activity_min_transaction_value = 10000
+short_interest_model_version = "short_interest_mvp_v1"
+short_interest_shadow_mode = true
+short_interest_stale_after_days = 45
+short_interest_provider_order = ["finra", "nasdaq_trader", "provider_export", "exchange_manual", "broker_manual"]
+short_interest_provider_timeout_seconds = 12
+short_interest_provider_retry_delay_seconds = 1.0
+short_interest_provider_cache_stale_hours = 24
+short_interest_provider_max_tickers_per_run = 13
+short_interest_provider_use_cache = true
+trader_commentary_model_version = "trader_commentary_mvp_v1"
+trader_commentary_shadow_mode = true
+trader_commentary_default_horizons = ["1d", "5d", "20d", "60d"]
+trader_commentary_stale_after_days = 30
+minimum_revision_inputs = 1
+stale_after_days = 45
+revision_evidence_min_source_tickers = 3
+revision_evidence_min_signal_tickers = 3
+revision_evidence_min_completed_20d = 3
+revision_evidence_min_hit_rate_20d = 0.55
+revision_evidence_min_avg_return_20d = 0.0
+revision_evidence_min_confidence = 60
+revision_provider_order = ["alpha_vantage", "fmp", "business_quant", "finnhub", "yfinance", "ibkr", "source_export"]
+revision_enabled_providers = ["alpha_vantage", "fmp", "business_quant", "finnhub", "yfinance", "source_export"]
+revision_source_policy = "weighted_median"
+revision_disagreement_warning_threshold = 0.05
+revision_high_disagreement_threshold = 0.10
+revision_min_sources_for_aggregate = 1
+
+[realtime]
+source = "ibkr"
+quote_stale_after_seconds = 900
+range_model_version = "range_monitor_mvp_v1"
+notification_cooldown_minutes = 60
+monitor_active_assets_only = true
+intraday_cycle_stale_after_seconds = 1800
+notification_pending_stale_after_seconds = 1800
+manual_ops_loop_interval_seconds = 600
+
+[research_preparation]
+auto_enabled = true
+auto_source = "all"
+auto_min_seconds_between_runs = 21600
+
+[api]
+host = "127.0.0.1"
+port = 8765
+allowed_origins = ["http://127.0.0.1:5173", "http://localhost:5173"]
+require_mutation_confirmation = true
+
+[technical]
+model_version = "technical_levels_mvp_v1"
+lookback_days = 252
+minimum_history_days = 120
+short_ma_days = 20
+medium_ma_days = 50
+long_ma_days = 200
+pivot_window_days = 5
+near_level_pct = 0.02
+breakout_buffer_pct = 0.01
+
+[regime]
+model_version = "market_regime_mvp_v1"
+benchmark_tickers = ["SPY", "QQQ"]
+sector_proxy_tickers = ["XLK", "XLY", "XLV", "XLF", "XLI", "XLP", "XLU", "XLE", "XLC", "XLB", "XLRE"]
+relative_strength_lookback_days = 63
+
+[commentary_browser_capture]
+enabled = false
+provider = "x_browser"
+target_urls = []
+max_scroll_batches = 3
+min_seconds_between_runs = 900
+require_operator_acknowledgement = true
+
+[commentary_discord_capture]
+enabled = false
+provider = "discord_gateway"
+channel_ids = []
+max_messages_per_run = 100
+min_seconds_between_runs = 900
+require_operator_acknowledgement = true
+
+[run]
+universe_mode = "manual_watchlist"
+run_mode = "daily_scoring"
+
+[reports]
+title = "Target Opportunity Monitor Daily Report"
