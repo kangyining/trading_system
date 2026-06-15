@@ -1,0 +1,51 @@
+ticker,name,asset_type,exchange,currency,sector,industry,country,active,asset_role
+AAPL,Apple Inc.,equity,NASDAQ,USD,Information Technology,Consumer Electronics,US,1,
+MSFT,Microsoft Corporation,equity,NASDAQ,USD,Information Technology,Software,US,1,
+NVDA,NVIDIA Corporation,equity,NASDAQ,USD,Information Technology,Semiconductors,US,1,
+GOOGL,Alphabet Inc.,equity,NASDAQ,USD,Communication Services,Interactive Media & Services,US,1,
+AMZN,Amazon.com Inc.,equity,NASDAQ,USD,Consumer Discretionary,Broadline Retail,US,1,
+META,Meta Platforms Inc.,equity,NASDAQ,USD,Communication Services,Interactive Media & Services,US,1,
+AVGO,Broadcom Inc.,equity,NASDAQ,USD,Information Technology,Semiconductors,US,1,
+AMD,Advanced Micro Devices Inc.,equity,NASDAQ,USD,Information Technology,Semiconductors,US,1,
+ORCL,Oracle Corporation,equity,NYSE,USD,Information Technology,Software,US,1,
+CRM,Salesforce Inc.,equity,NYSE,USD,Information Technology,Software,US,1,
+JPM,JPMorgan Chase & Co.,equity,NYSE,USD,Financials,Banks,US,1,
+LLY,Eli Lilly and Company,equity,NYSE,USD,Health Care,Pharmaceuticals,US,1,
+COST,Costco Wholesale Corporation,equity,NASDAQ,USD,Consumer Staples,Consumer Staples Merchandise Retail,US,1,
+SPY,SPDR S&P 500 ETF Trust,etf,NYSEARCA,USD,ETF,Broad Market,US,1,
+QQQ,Invesco QQQ Trust,etf,NASDAQ,USD,ETF,Large Growth,US,1,
+BRK.B,Berkshire Hathaway Inc.,equity,NYSE,USD,Financials,Insurance - Diversified,US,1,scoreable
+HOOD,"Robinhood Markets, Inc.",equity,NASDAQ,USD,Financials,Capital Markets,US,1,scoreable
+KORU,KORU,etf,,USD,,,US,1,scoreable
+SOXL,SOXL,etf,,USD,,,US,1,scoreable
+TSLA,"Tesla, Inc.",equity,NASDAQ,USD,Consumer Discretionary,Auto Manufacturers,US,1,scoreable
+XLF,Financial Select Sector SPDR Fund,etf,NYSEARCA,USD,Financials,Sector ETF,US,1,scoreable
+XLV,Health Care Select Sector SPDR Fund,etf,NYSEARCA,USD,Health Care,Sector ETF,US,1,scoreable
+XLK,Technology Select Sector SPDR Fund,etf,NYSEARCA,USD,Information Technology,Sector ETF,US,1,scoreable
+XLC,Communication Services Select Sector SPDR Fund,etf,NYSEARCA,USD,Communication Services,Sector ETF,US,1,scoreable
+XLY,Consumer Discretionary Select Sector SPDR Fund,etf,NYSEARCA,USD,Consumer Discretionary,Sector ETF,US,1,scoreable
+XLP,Consumer Staples Select Sector SPDR Fund,etf,NYSEARCA,USD,Consumer Staples,Sector ETF,US,1,scoreable
+XLI,Industrial Select Sector SPDR Fund,etf,NYSEARCA,USD,Industrials,Sector ETF,US,1,scoreable
+XLE,Energy Select Sector SPDR Fund,etf,NYSEARCA,USD,Energy,Sector ETF,US,1,scoreable
+XLU,Utilities Select Sector SPDR Fund,etf,NYSEARCA,USD,Utilities,Sector ETF,US,1,scoreable
+XLB,Materials Select Sector SPDR Fund,etf,NYSEARCA,USD,Materials,Sector ETF,US,1,scoreable
+XLRE,Real Estate Select Sector SPDR Fund,etf,NYSEARCA,USD,Real Estate,Sector ETF,US,1,scoreable
+BIL,SPDR Bloomberg 1-3 Month T-Bill ETF,etf,NYSEARCA,USD,Fixed Income,Treasury Bills,US,1,scoreable
+DBC,Invesco DB Commodity Index Tracking Fund,etf,NYSEARCA,USD,Commodities,Broad Commodities,US,1,scoreable
+AAOI,"Applied Optoelectronics, Inc.",equity,NASDAQ,USD,Information Technology,Communication Equipment,US,1,scoreable
+AMAT,"Applied Materials, Inc.",equity,NASDAQ,USD,Information Technology,Semiconductor Equipment & Materials,US,1,scoreable
+AXTI,AXT Inc,equity,NASDAQ,USD,Information Technology,Semiconductor Equipment & Materials,US,1,scoreable
+COHR,Coherent Corp.,equity,NYSE,USD,Information Technology,Scientific & Technical Instruments,US,1,scoreable
+JBL,Jabil Inc.,equity,NYSE,USD,Information Technology,Electronic Components,US,1,scoreable
+KOPN,Kopin Corporation,equity,NASDAQ,USD,Information Technology,Electronic Components,US,1,scoreable
+LITE,Lumentum Holdings Inc.,equity,NASDAQ,USD,Information Technology,Communication Equipment,US,1,scoreable
+LRCX,Lam Research Corporation,equity,NASDAQ,USD,Information Technology,Semiconductor Equipment & Materials,US,1,scoreable
+MRVL,"Marvell Technology, Inc.",equity,NASDAQ,USD,Information Technology,Semiconductors,US,1,scoreable
+MU,"Micron Technology, Inc.",equity,NASDAQ,USD,Information Technology,Semiconductors,US,1,scoreable
+POET,POET Technologies Inc.,equity,NASDAQ,USD,Information Technology,Semiconductors,US,1,scoreable
+SMCI,"Super Micro Computer, Inc.",equity,NASDAQ,USD,Information Technology,Computer Hardware,US,1,scoreable
+TER,"Teradyne, Inc.",equity,NASDAQ,USD,Information Technology,Semiconductor Equipment & Materials,US,1,scoreable
+TSEM,Tower Semiconductor Ltd.,equity,NASDAQ,USD,Information Technology,Semiconductors,US,1,scoreable
+TSM,Taiwan Semiconductor Manufacturing Company Limited,equity,NYSE,USD,Information Technology,Semiconductors,US,1,scoreable
+SIVE,Sivers Semiconductors AB,equity,Nasdaq Stockholm,SEK,Information Technology,Semiconductors,Sweden,1,scoreable
+SOI,Soitec SA,equity,Euronext Paris/XPAR,EUR,Information Technology,Semiconductors,France,1,scoreable
