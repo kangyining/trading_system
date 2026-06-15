@@ -1,0 +1,15 @@
+sector,benchmark_ticker,benchmark_type,source,notes
+Overall,SPY,overall,phase13a_default,Broad US equity benchmark
+Nasdaq 100,QQQ,overall,phase13a_default,Growth/mega-cap benchmark
+Information Technology,XLK,sector,phase13a_default,Technology sector ETF proxy
+Technology,XLK,sector,foreign_equity_taxonomy_alias,Alias for foreign-equity source rows that use broad Technology sector wording.
+Communication Services,XLC,sector,phase13a_default,Communication services sector ETF proxy
+Consumer Discretionary,XLY,sector,phase13a_default,Consumer discretionary sector ETF proxy
+Consumer Staples,XLP,sector,phase13a_default,Consumer staples sector ETF proxy
+Financials,XLF,sector,phase13a_default,Financials sector ETF proxy
+Health Care,XLV,sector,phase13a_default,Health care sector ETF proxy
+Industrials,XLI,sector,phase13a_default,Industrials sector ETF proxy
+Energy,XLE,sector,phase13a_default,Energy sector ETF proxy
+Utilities,XLU,sector,phase13a_default,Utilities sector ETF proxy
+Materials,XLB,sector,phase13a_default,Materials sector ETF proxy
+Real Estate,XLRE,sector,phase13a_default,Real estate sector ETF proxy

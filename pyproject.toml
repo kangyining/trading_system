@@ -1,0 +1,20 @@
+[project]
+name = "target-opportunity-monitor"
+version = "0.1.0"
+description = "Local target-opportunity trading signal monitor."
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+tom = "target_opportunity_monitor.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

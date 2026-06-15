@@ -1,0 +1,46 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tmp_tests/
+tmp/
+
+# TOM runtime/private state
+data/**/*.sqlite
+data/**/*.sqlite-*
+data/**/cache/
+data/**/.cache/
+data/market_data/
+data/notifications/
+data/ops/
+data/research/manual/.cache/
+data/portfolio/manual/*.csv
+data/options/manual/options_positions.csv
+reports/
+dashboard/
+
+# Secrets/local env
+.env
+.env.*
+*.local
+
+# Node/Vite
+node_modules/
+dist/
+.vite/
+.npm-cache/
+*.tsbuildinfo
+npm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore all runtime/source data by default; keep only scaffold marker.
+data/**
+!data/
+!data/.gitkeep

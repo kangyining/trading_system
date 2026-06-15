@@ -1,0 +1,10 @@
+ticker,name,asset_type,exchange,currency,sector,industry,country,intended_role,cik,source,notes
+XLK,Technology Select Sector SPDR Fund,etf,NYSEARCA,USD,Information Technology,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLC,Communication Services Select Sector SPDR Fund,etf,NYSEARCA,USD,Communication Services,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLY,Consumer Discretionary Select Sector SPDR Fund,etf,NYSEARCA,USD,Consumer Discretionary,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLP,Consumer Staples Select Sector SPDR Fund,etf,NYSEARCA,USD,Consumer Staples,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLI,Industrial Select Sector SPDR Fund,etf,NYSEARCA,USD,Industrials,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLE,Energy Select Sector SPDR Fund,etf,NYSEARCA,USD,Energy,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLU,Utilities Select Sector SPDR Fund,etf,NYSEARCA,USD,Utilities,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLB,Materials Select Sector SPDR Fund,etf,NYSEARCA,USD,Materials,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
+XLRE,Real Estate Select Sector SPDR Fund,etf,NYSEARCA,USD,Real Estate,Sector ETF,US,regime_proxy,,phase13a_default,Regime and relative-strength benchmark only; not scoreable.
