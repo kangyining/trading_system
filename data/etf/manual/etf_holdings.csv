@@ -1,0 +1,575 @@
+ticker,holdings_date,holding_ticker,holding_name,holding_asset_type,weight,shares,market_value,sector,country,source,as_of_date,effective_date
+SPY,2026-06-04,NVDA,NVIDIA CORP,equity,8.156941%,294624332,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,AAPL,APPLE INC,equity,7.014413%,178000207,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,MSFT,MICROSOFT CORP,equity,4.879468%,90030272,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,AMZN,AMAZON.COM INC,equity,3.805872%,118437778,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,GOOGL,ALPHABET INC CL A,equity,3.350402%,71095628,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,AVGO,BROADCOM INC,equity,3.048972%,57483514,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,GOOG,ALPHABET INC CL C,equity,2.679401%,57306565,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,META,META PLATFORMS INC CLASS A,equity,2.107013%,26516473,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,TSLA,TESLA INC,equity,1.806516%,34096432,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+SPY,2026-06-04,MU,MICRON TECHNOLOGY INC,equity,1.720777%,13645072,,,US,issuer_manual_state_street_holdings_daily,2026-06-04,2026-06-04
+QQQ,2026-06-05,NVDA,NVIDIA Corp,equity,8.305722%,190601606,39092389390.60,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,AAPL,Apple Inc,equity,7.510277%,115153962,35391418681.08,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,MSFT,Microsoft Corp,equity,5.160735%,58239945,24266837883.15,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,MU,Micron Technology Inc,equity,4.467906%,24368413,21054552516.13,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,AMZN,Amazon.com Inc,equity,4.395981%,84199541,20715613072.23,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,GOOGL,Alphabet Inc,equity,3.570688%,45658436,16826503419.08,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,AMD,Advanced Micro Devices Inc,equity,3.493509%,35299130,16462808249.40,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,GOOG,Alphabet Inc,equity,3.310870%,42656765,15602138366.40,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,TSLA,Tesla Inc,equity,3.247962%,39144990,15305691090.00,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+QQQ,2026-06-05,AVGO,Broadcom Inc,equity,3.043822%,37185856,14343700234.88,,US,issuer_manual_invesco_holdings_api,2026-06-06,2026-06-05
+XLB,2026-06-11,LIN,LINDE PLC,equity,14.650632,2236403,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,NUE,NUCOR CORP,equity,6.62466,1997843,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,NEM,NEWMONT CORP,equity,6.482689,5226629,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,FCX,FREEPORT MCMORAN INC,equity,5.803776,6883463,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,STLD,STEEL DYNAMICS INC,equity,4.7008,1323074,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,VMC,VULCAN MATERIALS CO,equity,4.534908,1273467,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,SHW,SHERWIN WILLIAMS CO/THE,equity,4.447169,1104198,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,CRH,CRH PLC,equity,4.397402,3300520,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,APD,AIR PRODUCTS + CHEMICALS INC,equity,4.369396,1236121,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,CTVA,CORTEVA INC,equity,4.153311,4365324,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,ECL,ECOLAB INC,equity,4.152024,1239187,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,MLM,MARTIN MARIETTA MATERIALS,equity,4.128774,574420,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,PPG,PPG INDUSTRIES INC,equity,3.25007,2162719,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,DOW,DOW INC,equity,2.955853,6915567,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,SW,SMURFIT WESTROCK PLC,equity,2.73178,5034906,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,PKG,PACKAGING CORP OF AMERICA,equity,2.456676,861384,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,IFF,INTL FLAVORS + FRAGRANCES,equity,2.431508,2468254,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,DD,DUPONT DE NEMOURS INC,equity,2.347809,3943825,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,ALB,ALBEMARLE CORP,equity,2.290327,1135836,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,IP,INTERNATIONAL PAPER CO,equity,2.260595,5089175,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,AMCR,AMCOR PLC,equity,2.259377,4453177,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,CF,CF INDUSTRIES HOLDINGS INC,equity,2.035941,1503290,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,LYB,LYONDELLBASELL INDU CL A,equity,2.001954,2481747,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,BALL,BALL CORP,equity,1.849416,2582793,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,AVY,AVERY DENNISON CORP,equity,1.502962,744914,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,MOS,MOSAIC CO/THE,equity,0.819998,3059200,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.113479,8928662.01,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,-,US DOLLAR,equity,0.105465,8298143.77,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLB,2026-06-11,IXDM6,XAB MATERIALS     JUN26,equity,0.006006,25600,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,META,META PLATFORMS INC CLASS A,equity,13.040058,5481942,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,GOOGL,ALPHABET INC CL A,equity,9.626559,6429824,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,GOOG,ALPHABET INC CL C,equity,7.73322,5182743,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,LYV,LIVE NATION ENTERTAINMENT IN,equity,5.036732,6984251,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,TTWO,TAKE TWO INTERACTIVE SOFTWRE,equity,4.773465,5378559,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,SATS,ECHOSTAR CORP A,equity,4.738458,8837271,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,DIS,WALT DISNEY CO/THE,equity,4.623171,11010266,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,OMC,OMNICOM GROUP,equity,4.361391,13787723,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,EA,ELECTRONIC ARTS INC,equity,4.356116,5126587,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,WBD,WARNER BROS DISCOVERY INC,equity,4.308906,38334773,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,VZ,VERIZON COMMUNICATIONS INC,equity,4.055505,20645897,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,TKO,TKO GROUP HOLDINGS INC,equity,3.892039,4352157,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,NFLX,NETFLIX INC,equity,3.79889,11170135,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,TMUS,T MOBILE US INC,equity,3.774603,4854122,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,CMCSA,COMCAST CORP CLASS A,equity,3.604461,35933887,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,T,AT+T INC,equity,3.473021,36083735,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,FOXA,FOX CORP   CLASS A,equity,3.057953,10698970,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,CHTR,CHARTER COMMUNICATIONS INC A,equity,2.736819,4700305,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,NWSA,NEWS CORP   CLASS A,equity,2.674453,24304897,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,TTD,TRADE DESK INC/THE  CLASS A,equity,2.286257,28906473,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,FOX,FOX CORP   CLASS B,equity,1.937802,7546682,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,NWS,NEWS CORP   CLASS B,equity,1.011503,8022317,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,PSKY,PARAMOUNT SKYDANCE CL B,equity,0.895629,20402557,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.141509,33815610.85,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLC,2026-06-11,-,US DOLLAR,equity,0.017912,4280412.68,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,XOM,EXXON MOBIL CORP,equity,22.058534,58355080,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,CVX,CHEVRON CORP,equity,16.70898,34873336,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,COP,CONOCOPHILLIPS,equity,6.779812,22792838,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,SLB,SLB LTD,equity,4.762053,32979355,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,VLO,VALERO ENERGY CORP,equity,4.433444,6726922,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,MPC,MARATHON PETROLEUM CORP,equity,4.375383,6506207,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,WMB,WILLIAMS COS INC,equity,4.264178,23261208,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,EOG,EOG RESOURCES INC,equity,4.21284,11966934,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,PSX,PHILLIPS 66,equity,4.080859,8886356,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,BKR,BAKER HUGHES CO,equity,3.567518,21795422,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,KMI,KINDER MORGAN INC,equity,3.491487,43178779,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,TRGP,TARGA RESOURCES CORP,equity,3.2883,4734326,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,OKE,ONEOK INC,equity,3.191876,13877689,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,DVN,DEVON ENERGY CORP,equity,2.920758,25392145,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,OXY,OCCIDENTAL PETROLEUM CORP,equity,2.268704,15861914,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,FANG,DIAMONDBACK ENERGY INC,equity,2.114803,4280881,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,HAL,HALLIBURTON CO,equity,1.893761,18472037,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,EQT,EQT CORP,equity,1.817076,13763826,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,TPL,TEXAS PACIFIC LAND CORP,equity,1.217007,1277191,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,EXE,EXPAND ENERGY CORP,equity,1.179436,5252814,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,APA,APA CORP,equity,0.741823,7822121,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.511782,198481807.8,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLE,2026-06-11,-,US DOLLAR,equity,0.050793,19698958.29,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,BRK.B,BERKSHIRE HATHAWAY INC CL B,equity,11.87888,12193462,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,JPM,JPMORGAN CHASE + CO,equity,11.271107,17928460,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,V,VISA INC CLASS A SHARES,equity,7.152104,11178286,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,MA,MASTERCARD INC   A,equity,5.283587,5415483,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,BAC,BANK OF AMERICA CORP,equity,4.880713,44122398,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,GS,GOLDMAN SACHS GROUP INC,equity,4.142243,1994467,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,MS,MORGAN STANLEY,equity,3.411636,7999761,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,WFC,WELLS FARGO + CO,equity,3.398106,20564103,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,C,CITIGROUP INC,equity,3.217403,11620002,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,AXP,AMERICAN EXPRESS CO,equity,2.274624,3561344,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,SCHW,SCHWAB (CHARLES) CORP,equity,1.975658,11106782,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,BLK,BLACKROCK INC,equity,1.955598,959264,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,SPGI,S+P GLOBAL INC,equity,1.68638,2034455,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,CB,CHUBB LTD,equity,1.58552,2418486,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,PGR,PROGRESSIVE CORP,equity,1.580771,3897258,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,COF,CAPITAL ONE FINANCIAL CORP,equity,1.517337,4156381,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,BNY,BANK OF NEW YORK MELLON CORP,equity,1.304001,4576302,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,CME,CME GROUP INC,equity,1.260605,2397616,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,PNC,PNC FINANCIAL SERVICES GROUP,equity,1.259963,2685674,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,BX,BLACKSTONE INC,equity,1.206834,4978438,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,USB,US BANCORP,equity,1.194579,10336330,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,MRSH,MARSH + MCLENNAN COS,equity,1.085545,3219224,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,ICE,INTERCONTINENTAL EXCHANGE IN,equity,1.052404,3775986,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,HOOD,ROBINHOOD MARKETS INC   A,equity,0.971976,5255131,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,AON,AON PLC CLASS A,equity,0.958864,1426566,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,MCO,MOODY S CORP,equity,0.903884,1020158,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,TRV,TRAVELERS COS INC/THE,equity,0.876291,1437864,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,KKR,KKR + CO INC,equity,0.872336,4564478,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,TFC,TRUIST FINANCIAL CORP,equity,0.853175,8394628,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,APO,APOLLO GLOBAL MANAGEMENT INC,equity,0.829174,3087683,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,ALL,ALLSTATE CORP,equity,0.761356,1729079,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,AJG,ARTHUR J GALLAGHER + CO,equity,0.757071,1708997,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,AFL,AFLAC INC,equity,0.724902,3104131,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,MET,METLIFE INC,equity,0.642905,3660513,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,FITB,FIFTH THIRD BANCORP,equity,0.641165,5985024,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,STT,STATE STREET CORP,equity,0.613494,1855759,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,MSCI,MSCI INC,equity,0.582149,488451,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,AMP,AMERIPRISE FINANCIAL INC,equity,0.548368,607146,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,AIG,AMERICAN INTERNATIONAL GROUP,equity,0.53887,3567581,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,IBKR,INTERACTIVE BROKERS GRO CL A,equity,0.527565,2961530,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,NDAQ,NASDAQ INC,equity,0.517548,2985975,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,PYPL,PAYPAL HOLDINGS INC,equity,0.506279,6121690,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,XYZ,BLOCK INC,equity,0.504601,3641944,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,PRU,PRUDENTIAL FINANCIAL INC,equity,0.494299,2314191,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,HIG,HARTFORD INSURANCE GROUP INC,equity,0.477529,1854535,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,COIN,COINBASE GLOBAL INC  CLASS A,equity,0.477223,1483323,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,HBAN,HUNTINGTON BANCSHARES INC,equity,0.465827,13497221,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,MTB,M + T BANK CORP,equity,0.461368,1009847,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,ACGL,ARCH CAPITAL GROUP LTD,equity,0.434362,2376790,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,NTRS,NORTHERN TRUST CORP,equity,0.424377,1239343,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,CBOE,CBOE GLOBAL MARKETS INC,equity,0.412824,695697,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,FISV,FISERV INC,equity,0.380562,3576501,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,CFG,CITIZENS FINANCIAL GROUP,equity,0.376946,2826134,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,ARES,ARES MANAGEMENT CORP   A,equity,0.36494,1370118,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,RJF,RAYMOND JAMES FINANCIAL INC,equity,0.351765,1166132,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,CINF,CINCINNATI FINANCIAL CORP,equity,0.350104,1037322,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,SYF,SYNCHRONY FINANCIAL,equity,0.335269,2311398,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,RF,REGIONS FINANCIAL CORP,equity,0.334395,5771812,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,WTW,WILLIS TOWERS WATSON PLC,equity,0.330774,632470,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,CPAY,CORPAY INC,equity,0.327111,464915,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,TROW,T ROWE PRICE GROUP INC,equity,0.315586,1453480,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,PFG,PRINCIPAL FINANCIAL GROUP,equity,0.2893,1315170,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,KEY,KEYCORP,equity,0.279027,6230998,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,WRB,WR BERKLEY CORP,equity,0.268326,1981077,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,FIS,FIDELITY NATIONAL INFO SERV,equity,0.264828,3443485,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,L,LOEWS CORP,equity,0.241969,1123768,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,BRO,BROWN + BROWN INC,equity,0.234029,1946619,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,GPN,GLOBAL PAYMENTS INC,equity,0.206838,1582160,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,EG,EVEREST GROUP LTD,equity,0.181533,270822,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,GL,GLOBE LIFE INC,equity,0.175259,529337,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,AIZ,ASSURANT INC,equity,0.172514,332786,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,IVZ,INVESCO LTD,equity,0.167499,2952428,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.152245,75917545.53,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,BEN,FRANKLIN RESOURCES INC,equity,0.130332,2043091,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,JKHY,JACK HENRY + ASSOCIATES INC,equity,0.121266,480071,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,FDS,FACTSET RESEARCH SYSTEMS INC,equity,0.117057,246666,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,ERIE,ERIE INDEMNITY COMPANY CL A,equity,0.076526,168842,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,-,US DOLLAR,equity,0.005271,2628185.84,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,IXAM6,XAF FINANCIAL     JUN26,equity,0.0043,102500,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLF,2026-06-11,-,POUND STERLING,equity,1e-06,407,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,CAT,CATERPILLAR INC,equity,7.651566,2632544,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,GE,GENERAL ELECTRIC,equity,6.393961,5934191,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,RTX,RTX CORP,equity,4.530188,7594963,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,GEV,GE VERNOVA INC,equity,4.477618,1524976,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,BA,BOEING CO/THE,equity,3.188201,4442627,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,UNP,UNION PACIFIC CORP,equity,2.916097,3356884,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,ETN,EATON CORP PLC,equity,2.800632,2197250,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,DE,DEERE + CO,equity,2.625861,1426123,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,UBER,UBER TECHNOLOGIES INC,equity,2.621989,11642772,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,HON,HONEYWELL INTERNATIONAL INC,equity,2.548328,3591667,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,VRT,VERTIV HOLDINGS CO A,equity,2.087965,2164734,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,PH,PARKER HANNIFIN CORP,equity,2.086323,714035,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,LMT,LOCKHEED MARTIN CORP,equity,2.035662,1145801,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,HWM,HOWMET AEROSPACE INC,equity,1.943912,2268869,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,PWR,QUANTA SERVICES INC,equity,1.867067,843874,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,TT,TRANE TECHNOLOGIES PLC,equity,1.865716,1252213,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,GD,GENERAL DYNAMICS CORP,equity,1.668926,1436265,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,CMI,CUMMINS INC,equity,1.660045,781887,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,ADP,AUTOMATIC DATA PROCESSING,equity,1.653313,2278736,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,JCI,JOHNSON CONTROLS INTERNATION,equity,1.615243,3463920,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,CSX,CSX CORP,equity,1.614044,10523992,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,MMM,3M CO,equity,1.524218,2980988,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,WM,WASTE MANAGEMENT INC,equity,1.487751,2100030,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,UPS,UNITED PARCEL SERVICE CL B,equity,1.471451,4182528,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,EMR,EMERSON ELECTRIC CO,equity,1.463382,3180658,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,NOC,NORTHROP GRUMMAN CORP,equity,1.35077,755016,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,FDX,FEDEX CORP,equity,1.339873,1224249,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,TDG,TRANSDIGM GROUP INC,equity,1.300521,319375,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,NSC,NORFOLK SOUTHERN CORP,equity,1.278073,1271086,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,URI,UNITED RENTALS INC,equity,1.232489,356234,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,ITW,ILLINOIS TOOL WORKS,equity,1.221957,1483119,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,FIX,COMFORT SYSTEMS USA INC,equity,1.189216,199232,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,CTAS,CINTAS CORP,equity,1.131993,1922125,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,PCAR,PACCAR INC,equity,1.131234,2971266,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,LHX,L3HARRIS TECHNOLOGIES INC,equity,1.067637,1056222,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,GWW,WW GRAINGER INC,equity,1.053288,247564,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,CARR,CARRIER GLOBAL CORP,equity,1.003366,4443243,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,FAST,FASTENAL CO,equity,0.975335,6493098,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,DAL,DELTA AIR LINES INC,equity,0.973343,3673467,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,AME,AMETEK INC,equity,0.953519,1301788,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,ROK,ROCKWELL AUTOMATION INC,equity,0.941492,635423,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,ODFL,OLD DOMINION FREIGHT LINE,equity,0.834884,1040681,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,WAB,WABTEC CORP,equity,0.818372,964324,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,RSG,REPUBLIC SERVICES INC,equity,0.766571,1137909,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,UAL,UNITED AIRLINES HOLDINGS INC,equity,0.666978,1829184,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,EME,EMCOR GROUP INC,equity,0.665298,253183,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,AXON,AXON ENTERPRISE INC,equity,0.644804,446294,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,PAYX,PAYCHEX INC,equity,0.587281,1827052,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,DOV,DOVER CORP,equity,0.539749,762787,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,CPRT,COPART INC,equity,0.506545,5036619,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,OTIS,OTIS WORLDWIDE CORP,equity,0.499226,2198448,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,XYL,XYLEM INC,equity,0.486459,1377663,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,IR,INGERSOLL RAND INC,equity,0.477112,2012946,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,VRSK,VERISK ANALYTICS INC,equity,0.465105,789228,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,HUBB,HUBBELL INC,equity,0.45686,300633,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,CHRW,C.H. ROBINSON WORLDWIDE INC,equity,0.415806,671940,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,EXPD,EXPEDITORS INTL WASH INC,equity,0.409065,759027,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,LUV,SOUTHWEST AIRLINES CO,equity,0.399064,2782659,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,JBHT,HUNT (JB) TRANSPRT SVCS INC,equity,0.396409,423407,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,VLTO,VERALTO CORP,equity,0.376269,1406146,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,SNA,SNAP ON INC,equity,0.366249,294043,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,FDXF,FEDEX FREIGHT HOLDING CO,equity,0.356771,612124,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,EFX,EQUIFAX INC,equity,0.352351,681898,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,FTV,FORTIVE CORP,equity,0.343964,1775186,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,BR,BROADRIDGE FINANCIAL SOLUTIO,equity,0.308136,661378,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,LII,LENNOX INTERNATIONAL INC,equity,0.302699,180808,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,TXT,TEXTRON INC,equity,0.29946,986695,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,IEX,IDEX CORP,equity,0.296814,422617,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,LDOS,LEIDOS HOLDINGS INC,equity,0.285392,721972,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,NDSN,NORDSON CORP,equity,0.276363,298812,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,GNRC,GENERAC HOLDINGS INC,equity,0.276107,331367,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,MAS,MASCO CORP,equity,0.274564,1149753,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,J,JACOBS SOLUTIONS INC,equity,0.271234,663176,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,ROL,ROLLINS INC,equity,0.25246,1657126,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,SWK,STANLEY BLACK + DECKER INC,equity,0.235389,874484,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,PNR,PENTAIR PLC,equity,0.217135,924050,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,HII,HUNTINGTON INGALLS INDUSTRIE,equity,0.215932,221588,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,ALLE,ALLEGION PLC,equity,0.210347,485842,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,BLDR,BUILDERS FIRSTSOURCE INC,equity,0.158847,624376,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.125048,38618859.21,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,AOS,SMITH (A.O.) CORP,equity,0.120594,634900,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,-,US DOLLAR,equity,0.019851,6130617.4,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLI,2026-06-11,IXIM6,XAI EMINI INDUSTR JUN26,equity,0.004852,35000,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,NVDA,NVIDIA CORP,equity,13.227698,77360783,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,AAPL,APPLE INC,equity,11.532091,46738473,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,MSFT,MICROSOFT CORP,equity,7.701513,23640025,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,MU,MICRON TECHNOLOGY INC,equity,7.253688,8727125,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,AMD,ADVANCED MICRO DEVICES,equity,5.153795,12642179,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,AVGO,BROADCOM INC,equity,4.857327,15094164,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,INTC,INTEL CORP,equity,3.55393,36407135,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,CSCO,CISCO SYSTEMS INC,equity,3.115155,30636584,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,LRCX,LAM RESEARCH CORP,equity,2.929701,9682920,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,AMAT,APPLIED MATERIALS INC,equity,2.838689,6154466,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,KLAC,KLA CORP,equity,2.045727,10163660,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ORCL,ORACLE CORP,equity,2.020288,13148446,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,PLTR,PALANTIR TECHNOLOGIES INC A,equity,1.937773,17712567,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,SNDK,SANDISK CORP,equity,1.797234,1144493,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,TXN,TEXAS INSTRUMENTS INC,equity,1.74494,7037083,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,IBM,INTL BUSINESS MACHINES CORP,equity,1.662623,7247914,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,PANW,PALO ALTO NETWORKS INC,equity,1.461795,6265751,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,QCOM,QUALCOMM INC,equity,1.401461,8273429,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ADI,ANALOG DEVICES INC,equity,1.303233,3788810,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,STX,SEAGATE TECHNOLOGY HOLDINGS,equity,1.225102,1690917,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,APH,AMPHENOL CORP CL A,equity,1.212809,9531285,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,WDC,WESTERN DIGITAL CORP,equity,1.161304,2628858,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,CRWD,CROWDSTRIKE HOLDINGS INC   A,equity,1.128203,1954750,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ANET,ARISTA NETWORKS INC,equity,1.04516,8006836,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,CRM,SALESFORCE INC,equity,1.009329,7265472,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,GLW,CORNING INC,equity,0.892022,6053728,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,APP,APPLOVIN CORP CLASS A,equity,0.839317,2101336,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,DELL,DELL TECHNOLOGIES  C,equity,0.752844,2304325,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,NOW,SERVICENOW INC,equity,0.697776,8110664,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,CDNS,CADENCE DESIGN SYS INC,equity,0.675991,2110663,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ACN,ACCENTURE PLC CL A,equity,0.667064,4771072,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,FTNT,FORTINET INC,equity,0.593391,4901269,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ADBE,ADOBE INC,equity,0.581258,3182997,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,SNPS,SYNOPSYS INC,equity,0.564943,1483469,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,MPWR,MONOLITHIC POWER SYSTEMS INC,equity,0.501068,377692,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,INTU,INTUIT INC,equity,0.498679,2157732,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,DDOG,DATADOG INC   CLASS A,equity,0.497628,2545414,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,NXPI,NXP SEMICONDUCTORS NV,equity,0.492759,1951428,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,COHR,COHERENT CORP,equity,0.441125,1453707,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,MSI,MOTOROLA SOLUTIONS INC,equity,0.439925,1284515,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,LITE,LUMENTUM HOLDINGS INC,equity,0.411053,553634,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,CIEN,CIENA CORP,equity,0.405841,1092184,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,HPE,HEWLETT PACKARD ENTERPRISE,equity,0.402454,10303520,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,TEL,TE CONNECTIVITY PLC,equity,0.394491,2275262,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,TER,TERADYNE INC,equity,0.38655,1214338,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,KEYS,KEYSIGHT TECHNOLOGIES IN,equity,0.37743,1329948,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,MCHP,MICROCHIP TECHNOLOGY INC,equity,0.325475,4195951,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ON,ON SEMICONDUCTOR,equity,0.295688,3055203,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ADSK,AUTODESK INC,equity,0.282044,1643886,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,JBL,JABIL INC,equity,0.25755,818770,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ROP,ROPER TECHNOLOGIES INC,equity,0.229528,826580,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,NTAP,NETAPP INC,equity,0.205682,1535742,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,Q,QNITY ELECTRONICS INC,equity,0.202139,1624163,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,TDY,TELEDYNE TECHNOLOGIES INC,equity,0.189509,364040,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,FSLR,FIRST SOLAR INC,equity,0.188326,832115,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,FICO,FAIR ISAAC CORP,equity,0.181972,183936,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,WDAY,WORKDAY INC CLASS A,equity,0.179921,1651531,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,CTSH,COGNIZANT TECH SOLUTIONS A,equity,0.158401,3708282,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,VRSN,VERISIGN INC,equity,0.149308,639894,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,HPQ,HP INC,equity,0.146619,7118048,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,FFIV,F5 INC,equity,0.144062,438273,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,AKAM,AKAMAI TECHNOLOGIES INC,equity,0.123323,1115511,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,CDW,CDW CORP/DE,equity,0.108796,1009484,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,SMCI,SUPER MICRO COMPUTER INC,equity,0.104099,3901381,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,PTC,PTC INC,equity,0.091168,922658,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,GEN,GEN DIGITAL INC,equity,0.08539,4273631,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,TYL,TYLER TECHNOLOGIES INC,equity,0.082285,333663,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,TRMB,TRIMBLE INC,equity,0.076987,1844854,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,ZBRA,ZEBRA TECHNOLOGIES CORP CL A,equity,0.07081,381415,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,SWKS,SKYWORKS SOLUTIONS INC,equity,0.070775,1165946,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,IT,GARTNER INC,equity,0.067849,546297,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,GDDY,GODADDY INC   CLASS A,equity,0.065739,1047833,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.04899,58698377.71,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLK,2026-06-11,IXTM6,XAK TECHNOLOGY    JUN26,equity,0.021703,28500,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,WMT,WALMART INC,equity,11.019884,13326589,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,COST,COSTCO WHOLESALE CORP,equity,9.035239,1349450,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,PG,PROCTER + GAMBLE CO/THE,equity,7.192098,7065231,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,KO,COCA COLA CO/THE,equity,6.665677,11769592,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,PM,PHILIP MORRIS INTERNATIONAL,equity,5.870608,4732447,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,MDLZ,MONDELEZ INTERNATIONAL INC A,equity,5.055202,11626589,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,MO,ALTRIA GROUP INC,equity,4.754487,9702276,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,CL,COLGATE PALMOLIVE CO,equity,4.406067,7182757,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,MNST,MONSTER BEVERAGE CORP,equity,4.251648,6732198,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,PEP,PEPSICO INC,equity,4.097882,4154713,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,TGT,TARGET CORP,equity,3.890394,4274134,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,KDP,KEURIG DR PEPPER INC,equity,2.748275,12823812,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,SYY,SYSCO CORP,equity,2.470608,4520658,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,ADM,ARCHER DANIELS MIDLAND CO,equity,2.456058,4536184,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,KR,KROGER CO,equity,2.418169,5495689,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,KVUE,KENVUE INC,equity,2.242631,18085426,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,KMB,KIMBERLY CLARK CORP,equity,2.183115,3133058,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,HSY,HERSHEY CO/THE,equity,1.73563,1398594,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,DG,DOLLAR GENERAL CORP,equity,1.630247,2077707,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,CHD,CHURCH + DWIGHT CO INC,equity,1.488376,2234148,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,EL,ESTEE LAUDER COMPANIES CL A,equity,1.409492,2333513,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,DLTR,DOLLAR TREE INC,equity,1.376222,1745562,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,KHC,KRAFT HEINZ CO/THE,equity,1.337102,8044875,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,STZ,CONSTELLATION BRANDS INC A,equity,1.302008,1325691,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,GIS,GENERAL MILLS INC,equity,1.168895,5036525,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,CASY,CASEY S GENERAL STORES INC,equity,1.110886,176673,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,BG,BUNGE GLOBAL SA,equity,1.09841,1277649,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,TSN,TYSON FOODS INC CL A,equity,1.016598,2662510,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,MKC,MCCORMICK + CO NON VTG SHRS,equity,0.808659,2393673,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,SJM,JM SMUCKER CO/THE,equity,0.807418,1007101,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,CLX,CLOROX COMPANY,equity,0.769913,1141346,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,HRL,HORMEL FOODS CORP,equity,0.461564,2752074,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,TAP,MOLSON COORS BEVERAGE CO   B,equity,0.448872,1598120,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,CAG,CONAGRA BRANDS INC,equity,0.416762,4515387,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,BF.B,BROWN FORMAN CORP CLASS B,equity,0.295278,1612778,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,CPB,THE CAMPBELL S COMPANY,equity,0.28971,1857347,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.138208,20140138.15,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,-,US DOLLAR,equity,0.014869,2166754.83,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLP,2026-06-11,IXRM6,XAP CONS STAPLES  JUN26,equity,0.003275,48900,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,WELL,WELLTOWER INC,equity,9.912629,3807901,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,PLD,PROLOGIS INC,equity,9.226407,5072871,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,EQIX,EQUINIX INC,equity,6.911611,536191,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,AMT,AMERICAN TOWER CORP,equity,5.920111,2554946,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,SPG,SIMON PROPERTY GROUP INC,equity,4.807466,1810757,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,PSA,PUBLIC STORAGE,equity,4.592087,1144495,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,DLR,DIGITAL REALTY TRUST INC,equity,4.294298,1900730,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,CCI,CROWN CASTLE INC,equity,4.149293,3648354,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,VTR,VENTAS INC,equity,4.124749,3979118,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,O,REALTY INCOME CORP,equity,4.057986,5304559,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,CBRE,CBRE GROUP INC   A,equity,3.967859,2434322,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,IRM,IRON MOUNTAIN INC,equity,3.833418,2478480,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,EXR,EXTRA SPACE STORAGE INC,equity,3.301758,1778285,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,VICI,VICI PROPERTIES INC,equity,3.176782,9152403,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,AVB,AVALONBAY COMMUNITIES INC,equity,2.702416,1186274,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,EQR,EQUITY RESIDENTIAL,equity,2.372365,2880586,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,SBAC,SBA COMMUNICATIONS CORP,equity,2.246395,892691,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,ESS,ESSEX PROPERTY TRUST INC,equity,1.870871,539599,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,WY,WEYERHAEUSER CO,equity,1.815102,6037519,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,KIM,KIMCO REALTY CORP,equity,1.79591,5644258,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,INVH,INVITATION HOMES INC,equity,1.718456,4722290,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,MAA,MID AMERICA APARTMENT COMM,equity,1.67038,978861,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,HST,HOST HOTELS + RESORTS INC,equity,1.610603,5355097,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,DOC,HEALTHPEAK PROPERTIES INC,equity,1.474208,5819750,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,CSGP,COSTAR GROUP INC,equity,1.431767,3548859,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,REG,REGENCY CENTERS CORP,equity,1.361507,1378423,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,CPT,CAMDEN PROPERTY TRUST,equity,1.224461,865898,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,UDR,UDR INC,equity,1.21701,2518290,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,FRT,FEDERAL REALTY INVS TRUST,equity,1.01311,657385,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,BXP,BXP INC,equity,1.010421,1234659,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,ARE,ALEXANDRIA REAL ESTATE EQUIT,equity,0.851614,1306036,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.114989,9305881.35,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,XARM6,EMINI S+P REESTATEJUN26,equity,0.007702,110000,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLRE,2026-06-11,-,US DOLLAR,equity,0.007176,580742.72,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,NEE,NEXTERA ENERGY INC,equity,12.961295,34347605,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,SO,SOUTHERN CO/THE,equity,7.533709,18159988,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,DUK,DUKE ENERGY CORP,equity,7.084633,12825652,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,CEG,CONSTELLATION ENERGY,equity,5.78552,5272352,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,AEP,AMERICAN ELECTRIC POWER,equity,5.097571,8920239,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,SRE,SEMPRA,equity,4.382817,10764432,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,D,DOMINION ENERGY INC,equity,4.177476,14083221,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,ETR,ENTERGY CORP,equity,3.646374,7460221,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,VST,VISTRA CORP,equity,3.419984,5252802,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,EXC,EXELON CORP,equity,3.41489,16870138,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,XEL,XCEL ENERGY INC,equity,3.396396,9755998,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,PEG,PUBLIC SERVICE ENTERPRISE GP,equity,2.884634,8232343,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,ED,CONSOLIDATED EDISON INC,equity,2.828831,5952807,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,PCG,P G + E CORP,equity,2.707146,36250144,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,WEC,WEC ENERGY GROUP INC,equity,2.699539,5367733,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,DTE,DTE ENERGY COMPANY,equity,2.22108,3425194,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,AEE,AMEREN CORPORATION,equity,2.194817,4558471,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,EIX,EDISON INTERNATIONAL,equity,2.041918,6346122,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,ATO,ATMOS ENERGY CORP,equity,2.041596,2728444,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,CNP,CENTERPOINT ENERGY INC,equity,2.037819,10767495,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,NRG,NRG ENERGY INC,equity,1.927166,3502661,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,PPL,PPL CORP,equity,1.924225,12200166,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,ES,EVERSOURCE ENERGY,equity,1.883362,6187795,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,AWK,AMERICAN WATER WORKS CO INC,equity,1.781809,3218955,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,FE,FIRSTENERGY CORP,equity,1.779915,8574525,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,CMS,CMS ENERGY CORP,equity,1.637504,5053608,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,NI,NISOURCE INC,equity,1.636525,7892216,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,EVRG,EVERGY INC,equity,1.398497,3796886,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,LNT,ALLIANT ENERGY CORP,equity,1.369381,4239520,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,PNW,PINNACLE WEST CAPITAL,equity,0.899086,1974012,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,AES,AES CORP,equity,0.766339,11744637,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.085025,19116009.66,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLU,2026-06-11,-,US DOLLAR,equity,0.042373,9526615.68,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,LLY,ELI LILLY + CO,equity,16.523537,5609570,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,JNJ,JOHNSON + JOHNSON,equity,10.315965,17059693,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,ABBV,ABBVIE INC,equity,7.135116,12511309,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,UNH,UNITEDHEALTH GROUP INC,equity,6.598202,6412410,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,MRK,MERCK + CO. INC.,equity,5.383459,17570269,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,AMGN,AMGEN INC,equity,3.424392,3811946,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,TMO,THERMO FISHER SCIENTIFIC INC,equity,3.209812,2659641,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,GILD,GILEAD SCIENCES INC,equity,2.804878,8782775,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,ABT,ABBOTT LABORATORIES,equity,2.799942,12309457,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,PFE,PFIZER INC,equity,2.672517,40249161,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,ISRG,INTUITIVE SURGICAL INC,equity,2.633639,2513920,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,CVS,CVS HEALTH CORP,equity,2.295996,9005992,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,BMY,BRISTOL MYERS SQUIBB CO,equity,2.081248,14416231,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,DHR,DANAHER CORP,equity,2.042937,4453697,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,VRTX,VERTEX PHARMACEUTICALS INC,equity,2.030306,1798053,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,SYK,STRYKER CORP,equity,1.890763,2438187,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,MDT,MEDTRONIC PLC,equity,1.84971,9075405,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,MCK,MCKESSON CORP,equity,1.731802,867079,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,ELV,ELEVANCE HEALTH INC,equity,1.582399,1562382,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,CI,THE CIGNA GROUP,equity,1.395178,1865019,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,BSX,BOSTON SCIENTIFIC CORP,equity,1.256443,10498248,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,REGN,REGENERON PHARMACEUTICALS,equity,1.107158,713621,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,HCA,HCA HEALTHCARE INC,equity,1.064196,1108114,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,COR,CENCORA INC,equity,0.983496,1377099,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,CAH,CARDINAL HEALTH INC,equity,0.934719,1665768,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,EW,EDWARDS LIFESCIENCES CORP,equity,0.893862,4107956,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,IDXX,IDEXX LABORATORIES INC,equity,0.800213,565303,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,HUM,HUMANA INC,equity,0.798583,853687,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,BDX,BECTON DICKINSON AND CO,equity,0.753605,2015736,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,A,AGILENT TECHNOLOGIES INC,equity,0.658136,2002249,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,WAT,WATERS CORP,equity,0.633718,694300,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,ZTS,ZOETIS INC,equity,0.617166,2988256,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,IQV,IQVIA HOLDINGS INC,equity,0.551523,1200552,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,CNC,CENTENE CORP,equity,0.533153,3307080,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,GEHC,GE HEALTHCARE TECHNOLOGY,equity,0.528056,3226213,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,BIIB,BIOGEN INC,equity,0.52704,1038820,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,DXCM,DEXCOM INC,equity,0.520176,2724480,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,RMD,RESMED INC,equity,0.5034,1031266,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,VEEV,VEEVA SYSTEMS INC CLASS A,equity,0.438844,1070640,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,WST,WEST PHARMACEUTICAL SERVICES,equity,0.426872,509303,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,MTD,METTLER TOLEDO INTERNATIONAL,equity,0.416575,143864,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,DGX,QUEST DIAGNOSTICS INC,equity,0.402728,778724,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,LH,LABCORP HOLDINGS INC,equity,0.394986,586859,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,STE,STERIS PLC,equity,0.365,694227,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,VTRS,VIATRIS INC,equity,0.337404,8153365,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,INCY,INCYTE CORP,equity,0.323777,1183442,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,ZBH,ZIMMER BIOMET HOLDINGS INC,equity,0.31018,1402932,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,MRNA,MODERNA INC,equity,0.310046,2461693,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,COO,COOPER COS INC/THE,equity,0.237639,1387364,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,ALGN,ALIGN TECHNOLOGY INC,equity,0.211562,472398,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,SOLV,SOLVENTUM CORP,equity,0.209772,1043646,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,RVTY,REVVITY INC,equity,0.206719,802545,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,BAX,BAXTER INTERNATIONAL INC,equity,0.189344,3642076,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,PODD,INSULET CORP,equity,0.188535,498071,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,CRL,CHARLES RIVER LABORATORIES,equity,0.166239,348398,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.161828,63781369.1,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,TECH,BIO TECHNE CORP,equity,0.151799,1107528,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,UHS,UNIVERSAL HEALTH SERVICES B,equity,0.144886,390990,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,HSIC,HENRY SCHEIN INC,equity,0.144181,708378,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,DVA,DAVITA INC,equity,0.12224,236366,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,-,US DOLLAR,equity,0.053773,21193446.08,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,IXCM6,XAV  HEALTH CARE  JUN26,equity,0.004811,57500,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLV,2026-06-11,2602335D,CONTRA HOLOGIC INCORPO,equity,4.1e-05,1617201,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,AMZN,AMAZON.COM INC,equity,25.5766,23709342,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,TSLA,TESLA INC,equity,19.092048,10708489,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,HD,HOME DEPOT INC,equity,5.519676,3790482,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,TJX,TJX COMPANIES INC,equity,4.36124,5800086,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,MCD,MCDONALD S CORP,equity,3.858271,3033265,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,BKNG,BOOKING HOLDINGS INC,equity,3.075594,4209050,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,LOW,LOWE S COS INC,equity,2.892912,2929925,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,SBUX,STARBUCKS CORP,equity,2.718625,5950732,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,MAR,MARRIOTT INTERNATIONAL  CL A,equity,2.036535,1148771,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,HLT,HILTON WORLDWIDE HOLDINGS IN,equity,1.828761,1197624,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,ROST,ROSS STORES INC,equity,1.804359,1689418,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,ORLY,O REILLY AUTOMOTIVE INC,equity,1.769759,4397453,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,GM,GENERAL MOTORS CO,equity,1.705128,4721596,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,RCL,ROYAL CARIBBEAN CRUISES LTD,equity,1.690253,1314109,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,DASH,DOORDASH INC   A,equity,1.348284,1952593,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,F,FORD MOTOR CO,equity,1.344844,20467801,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,ABNB,AIRBNB INC CLASS A,equity,1.293293,2212426,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,NKE,NIKE INC  CL B,equity,1.27762,6223483,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,AZO,AUTOZONE INC,equity,1.190868,86516,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,EBAY,EBAY INC,equity,1.155896,2360915,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,CVNA,CARVANA CO,equity,1.118864,3693443,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,YUM,YUM  BRANDS INC,equity,0.992669,1449970,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,DHI,DR HORTON INC,equity,0.970746,1407297,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,CMG,CHIPOTLE MEXICAN GRILL INC,equity,0.949391,6801535,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,GRMN,GARMIN LTD,equity,0.91002,853943,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,CCL,CARNIVAL CORP LTD,equity,0.843421,6714918,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,TPR,TAPESTRY INC,equity,0.686801,1057567,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,EXPE,EXPEDIA GROUP INC,equity,0.613328,611194,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,WSM,WILLIAMS SONOMA INC,equity,0.609286,623598,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,DRI,DARDEN RESTAURANTS INC,equity,0.566408,601434,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,PHM,PULTEGROUP INC,equity,0.555905,1003669,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,ULTA,ULTA BEAUTY INC,equity,0.493146,231738,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,LEN,LENNAR CORP W/D,equity,0.478025,1127112,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,NVR,NVR INC,equity,0.422336,14592,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,TSCO,TRACTOR SUPPLY COMPANY,equity,0.385236,2758984,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,DECK,DECKERS OUTDOOR CORP,equity,0.378644,741193,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,LVS,LAS VEGAS SANDS CORP,equity,0.356874,1578667,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,RL,RALPH LAUREN CORP,equity,0.354523,201805,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,BBY,BEST BUY CO INC,equity,0.350423,1017538,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,APTV,APTIV PLC,equity,0.337218,1110886,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,GPC,GENUINE PARTS CO,equity,0.331781,726370,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,LULU,LULULEMON ATHLETICA INC,equity,0.303347,557393,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,HAS,HASBRO INC,equity,0.26048,696141,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,DPZ,DOMINO S PIZZA INC,equity,0.226393,162315,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,WYNN,WYNN RESORTS LTD,equity,0.212069,440628,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,MGM,MGM RESORTS INTERNATIONAL,equity,0.211233,1001492,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,NCLH,NORWEGIAN CRUISE LINE HOLDIN,equity,0.202491,2378453,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,POOL,POOL CORP,equity,0.14699,171092,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,-,SSI US GOV MONEY MARKET CLASS,equity,0.065045,14562187.2,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,-,US DOLLAR,equity,0.024863,5566343.75,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+XLY,2026-06-11,IXYM6,XAY CONS DISCRET  JUN26,equity,0.00217,17600,,,US,issuer_manual_state_street_holdings_daily,2026-06-11,2026-06-11
+SOXL,2026-03-31,,Nvidia,equity,0.08410000000000001,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Broadcom Limited,equity,0.0828,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Micron Technology,equity,0.07,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Advanced Micro Devices,equity,0.06480000000000001,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Applied Material,equity,0.058499999999999996,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Marvell Technology,equity,0.0518,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Intel,equity,0.041299999999999996,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Kla Corporation,equity,0.041299999999999996,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Monolithic Power Systems,equity,0.0409,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+SOXL,2026-03-31,,Teradyne,equity,0.039599999999999996,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Samsung Electronics,equity,0.2262,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Sk Hynix,equity,0.19,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Hyundai Motor,equity,0.0269,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Kb Fgi,equity,0.0235,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Sk Square Company Ltd,equity,0.0206,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Hanwha Aerospace,equity,0.019299999999999998,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Doosan Enerbility,equity,0.018799999999999997,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Shinhan Financ,equity,0.0173,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Kia Corporation,equity,0.015600000000000001,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15
+KORU,2026-03-31,,Celltrion,equity,0.0143,,,,,direxion_official_index_holdings,2026-06-15,2026-06-15

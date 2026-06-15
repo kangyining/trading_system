@@ -44,3 +44,7 @@ Thumbs.db
 data/**
 !data/
 !data/.gitkeep
+!data/etf/
+!data/etf/manual/
+!data/etf/manual/etf_navs.csv
+!data/etf/manual/etf_holdings.csv

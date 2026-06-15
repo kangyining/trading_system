@@ -2796,7 +2796,7 @@ def command_research_ticker_plan(args: argparse.Namespace) -> int:
     plan = research_ticker_plan(
         config,
         args.ticker,
-        asset_type=args.asset_type,
+        asset_type=getattr(args, "asset_type", "equity"),
         refresh_metadata=args.refresh_metadata,
         name=args.name,
         sector=args.sector,
@@ -2816,7 +2816,7 @@ def command_apply_research_ticker(args: argparse.Namespace) -> int:
     result = apply_research_ticker(
         config,
         args.ticker,
-        asset_type=args.asset_type,
+        asset_type=getattr(args, "asset_type", "equity"),
         confirm=args.confirm,
         refresh_metadata=args.refresh_metadata,
         name=args.name,
