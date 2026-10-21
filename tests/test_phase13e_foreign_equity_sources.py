@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+from datetime import date
 from pathlib import Path
 import sys
 import unittest
@@ -10,6 +11,7 @@ from uuid import uuid4
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SRC_PATH = PROJECT_ROOT / "src"
 TEST_TMP_ROOT = PROJECT_ROOT / ".tmp_tests" / "phase13e"
+FIXTURE_DATE = date.today().isoformat()
 sys.path.insert(0, str(SRC_PATH))
 
 from target_opportunity_monitor.config import AppConfig
@@ -92,8 +94,8 @@ def _write_foreign_identity(config: AppConfig, ticker: str = "SIVE") -> None:
         "isin": "SE0003917798",
         "source": "issuer_investor_page",
         "source_url": "https://www.sivers-semiconductors.com/investors/shares-2/",
-        "as_of_date": "2026-06-15",
-        "effective_date": "2026-06-15",
+        "as_of_date": FIXTURE_DATE,
+        "effective_date": FIXTURE_DATE,
         "notes": "Source-backed identity.",
     }
     with path.open("w", encoding="utf-8", newline="") as output:
@@ -152,15 +154,15 @@ def _seed_sive_asset_and_price(config: AppConfig, price: float = 86.35) -> None:
             industry="Semiconductors",
             country="Sweden",
             source="research_foreign_equity_identity",
-            as_of_date="2026-06-15",
-            effective_date="2026-06-15",
+            as_of_date=FIXTURE_DATE,
+            effective_date=FIXTURE_DATE,
         ),
     )
     upsert_price_feature(
         config.database_path,
         PriceFeature(
             ticker="SIVE",
-            feature_date="2026-06-15",
+            feature_date=FIXTURE_DATE,
             current_price=price,
             return_1d=None,
             return_1m=None,
@@ -170,10 +172,10 @@ def _seed_sive_asset_and_price(config: AppConfig, price: float = 86.35) -> None:
             realized_volatility_20d=None,
             realized_volatility_60d=None,
             average_dollar_volume_20d=None,
-            latest_price_date="2026-06-15",
+            latest_price_date=FIXTURE_DATE,
             source="test_price",
-            as_of_date="2026-06-15",
-            effective_date="2026-06-15",
+            as_of_date=FIXTURE_DATE,
+            effective_date=FIXTURE_DATE,
         ),
     )
 
@@ -186,7 +188,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
             "ticker": "SIVE",
             "source": "issuer_annual_report",
             "source_url": "https://example.com/sive-annual-report.pdf",
-            "as_of_date": "2026-06-15",
+            "as_of_date": FIXTURE_DATE,
             "effective_date": "2025-12-31",
             "notes": "Source-backed test row.",
         }
@@ -207,7 +209,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
             estimates=[
                 {
                     **common,
-                    "estimate_date": "2026-06-15",
+                    "estimate_date": FIXTURE_DATE,
                     "fiscal_period_end": "2026-12-31",
                     "metric": "eps",
                     "fiscal_period": "NTM",
@@ -247,7 +249,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
                     "fiscal_period": "FY",
                     "report_type": "annual",
                     "source": "issuer_annual_report",
-                    "as_of_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
                     "effective_date": "2025-12-31",
                     "notes": "Missing source URL.",
                     "revenue": "100",
@@ -259,7 +261,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
                     "report_type": "annual",
                     "source": "issuer_annual_report",
                     "source_url": "https://example.com/nope.pdf",
-                    "as_of_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
                     "effective_date": "2025-12-31",
                     "notes": "Unsupported ticker.",
                     "revenue": "100",
@@ -268,13 +270,13 @@ class ForeignEquitySourceTests(unittest.TestCase):
             estimates=[
                 {
                     "ticker": "SIVE",
-                    "estimate_date": "2026-06-15",
+                    "estimate_date": FIXTURE_DATE,
                     "fiscal_period_end": "2026-12-31",
                     "metric": "eps",
                     "source": "issuer_annual_report",
                     "source_url": "https://example.com/sive.pdf",
-                    "as_of_date": "2026-06-15",
-                    "effective_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
+                    "effective_date": FIXTURE_DATE,
                     "notes": "Malformed numeric.",
                     "consensus_mean": "bad",
                 }
@@ -298,11 +300,11 @@ class ForeignEquitySourceTests(unittest.TestCase):
             export_foreign_equity_source_templates(config)
         )
 
-        self.assertEqual(fundamentals_path, "data\\research\\source_exports\\foreign_equity_fundamentals.csv")
-        self.assertEqual(estimates_path, "data\\research\\source_exports\\foreign_equity_estimates.csv")
+        self.assertEqual(Path(fundamentals_path), Path("data/research/source_exports/foreign_equity_fundamentals.csv"))
+        self.assertEqual(Path(estimates_path), Path("data/research/source_exports/foreign_equity_estimates.csv"))
         self.assertEqual(
-            analyst_targets_path,
-            "data\\research\\source_exports\\foreign_equity_analyst_targets.csv",
+            Path(analyst_targets_path),
+            Path("data/research/source_exports/foreign_equity_analyst_targets.csv"),
         )
         self.assertTrue((config.project_root / fundamentals_path).exists())
         self.assertTrue((config.project_root / estimates_path).exists())
@@ -319,7 +321,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
             analyst_targets=[
                 {
                     "ticker": "SIVE",
-                    "target_date": "2026-06-15",
+                    "target_date": FIXTURE_DATE,
                     "currency": "SEK",
                     "target_mean": "9.8",
                     "target_low": "6.0",
@@ -327,8 +329,8 @@ class ForeignEquitySourceTests(unittest.TestCase):
                     "analyst_count": "4",
                     "source": "yfinance_analyst_target",
                     "source_url": "https://finance.yahoo.com/quote/SIVE.ST/analysis/",
-                    "as_of_date": "2026-06-15",
-                    "effective_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
+                    "effective_date": FIXTURE_DATE,
                     "notes": "Source-backed provider target.",
                 }
             ],
@@ -356,12 +358,12 @@ class ForeignEquitySourceTests(unittest.TestCase):
             analyst_targets=[
                 {
                     "ticker": "SIVE",
-                    "target_date": "2026-06-15",
+                    "target_date": FIXTURE_DATE,
                     "currency": "SEK",
                     "target_mean": "9.8",
                     "source": "provider_export",
-                    "as_of_date": "2026-06-15",
-                    "effective_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
+                    "effective_date": FIXTURE_DATE,
                     "notes": "Missing URL.",
                 },
                 {
@@ -371,19 +373,19 @@ class ForeignEquitySourceTests(unittest.TestCase):
                     "target_mean": "9.8",
                     "source": "provider_export",
                     "source_url": "https://example.com/sive-target.csv",
-                    "as_of_date": "2026-06-15",
-                    "effective_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
+                    "effective_date": FIXTURE_DATE,
                     "notes": "Stale target.",
                 },
                 {
                     "ticker": "SIVE",
-                    "target_date": "2026-06-15",
+                    "target_date": FIXTURE_DATE,
                     "currency": "SEK",
                     "target_mean": "1000",
                     "source": "provider_export",
                     "source_url": "https://example.com/sive-target.csv",
-                    "as_of_date": "2026-06-15",
-                    "effective_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
+                    "effective_date": FIXTURE_DATE,
                     "notes": "Scale mismatch.",
                 },
             ],
@@ -410,7 +412,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
             "ticker": "SIVE",
             "source": "issuer_interim_report",
             "source_url": "https://example.com/sive-interim.pdf",
-            "as_of_date": "2026-06-15",
+            "as_of_date": FIXTURE_DATE,
             "effective_date": "2025-12-31",
             "notes": "Source-backed loss-making test row.",
         }
@@ -434,7 +436,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
             estimates=[
                 {
                     **common,
-                    "estimate_date": "2026-06-15",
+                    "estimate_date": FIXTURE_DATE,
                     "fiscal_period_end": "2026-12-31",
                     "metric": "eps",
                     "fiscal_period": "NTM",
@@ -446,7 +448,7 @@ class ForeignEquitySourceTests(unittest.TestCase):
             analyst_targets=[
                 {
                     "ticker": "SIVE",
-                    "target_date": "2026-06-15",
+                    "target_date": FIXTURE_DATE,
                     "currency": "SEK",
                     "target_mean": "9.8",
                     "target_low": "6.0",
@@ -454,8 +456,8 @@ class ForeignEquitySourceTests(unittest.TestCase):
                     "analyst_count": "4",
                     "source": "yfinance_analyst_target",
                     "source_url": "https://finance.yahoo.com/quote/SIVE.ST/analysis/",
-                    "as_of_date": "2026-06-15",
-                    "effective_date": "2026-06-15",
+                    "as_of_date": FIXTURE_DATE,
+                    "effective_date": FIXTURE_DATE,
                     "notes": "Source-backed provider target.",
                 }
             ],

@@ -798,19 +798,14 @@ def _scheduler_status_payload(config: AppConfig) -> dict[str, object]:
 
 
 def api_cors_headers(config: AppConfig, origin: str | None) -> dict[str, str]:
-    if origin and origin in config.api_allowed_origins:
+    if origin and origin != "null" and origin in config.api_allowed_origins:
         return {
             "Access-Control-Allow-Origin": origin,
             "Vary": "Origin",
             "Access-Control-Allow-Headers": "Content-Type, X-TOM-Confirm",
             "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
         }
-    return {
-        "Access-Control-Allow-Origin": "null",
-        "Vary": "Origin",
-        "Access-Control-Allow-Headers": "Content-Type, X-TOM-Confirm",
-        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-    }
+    return {"Vary": "Origin"}
 
 
 def api_status(config: AppConfig) -> dict[str, object]:
@@ -1685,6 +1680,9 @@ def handle_api_request(
     headers: Mapping[str, str] | None = None,
     body: object | None = None,
 ) -> tuple[int, dict[str, object]]:
+    origin = next((value for key, value in (headers or {}).items() if key.lower() == "origin"), None)
+    if origin is not None and (origin == "null" or origin not in config.api_allowed_origins):
+        return 403, _error("origin_forbidden", "Browser origin is not allowed.")
     parsed = urlparse(target)
     path = parsed.path.rstrip("/") or "/"
     query = parse_qs(parsed.query)
@@ -1737,8 +1735,11 @@ def serve_api(
             self.wfile.write(response)
 
         def do_OPTIONS(self) -> None:  # noqa: N802
-            self.send_response(204)
             origin = self.headers.get("Origin")
+            if origin is not None and (origin == "null" or origin not in config.api_allowed_origins):
+                self._send_json(403, _error("origin_forbidden", "Browser origin is not allowed."))
+                return
+            self.send_response(204)
             for key, value in api_cors_headers(config, origin).items():
                 self.send_header(key, value)
             self.end_headers()

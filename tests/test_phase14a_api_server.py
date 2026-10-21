@@ -144,6 +144,27 @@ class Phase14ApiServerTests(unittest.TestCase):
         self.assertFalse(malformed["ok"])
         self.assertEqual(malformed["error_code"], "malformed_json")
 
+    def test_untrusted_origins_cannot_read_or_mutate(self) -> None:
+        config = _initialized_config("cors_rejected")
+        for origin in ("null", "https://untrusted.example", "http://localhost:9999"):
+            with self.subTest(origin=origin):
+                self.assertNotIn("Access-Control-Allow-Origin", api_cors_headers(config, origin))
+                for method, path in (("GET", "/api/health"), ("POST", "/api/assets/add")):
+                    code, payload = handle_api_request(
+                        config, method, path, headers={"origin": origin, "X-TOM-Confirm": "true"},
+                        body={"confirm": True, "ticker": "UNTRUSTED"},
+                    )
+                    self.assertEqual(code, 403)
+                    self.assertEqual(payload["error_code"], "origin_forbidden")
+
+    def test_allowed_origin_and_cli_requests_still_work(self) -> None:
+        config = _initialized_config("cors_allowed")
+        for headers in (None, {"Origin": "http://127.0.0.1:5173"}):
+            code, payload = handle_api_request(config, "GET", "/api/health", headers=headers)
+            self.assertEqual(code, 200)
+            self.assertTrue(payload["ok"])
+        self.assertNotIn("Access-Control-Allow-Origin", api_cors_headers(config, None))
+
     def test_mutating_recommendation_status_requires_confirmation(self) -> None:
         config = _initialized_config("recommendation_requires_confirmation")
         recommendation_id = _seed_recommendation(config)
