@@ -1611,6 +1611,9 @@ function renderRankingTable() {{
     <td>${{fmt.number(row.insider_activity_score)}}</td>
     <td>${{fmt.number(row.short_interest_score)}}</td>
     <td>${{fmt.percent(row.option_annualized_yield)}}</td>
+    <td>${{badge(row.option_lifecycle_status || 'none')}}</td>
+    <td>${{fmt.money(row.option_lifecycle_realized_pl)}}</td>
+    <td>${{fmt.money(row.option_lifecycle_open_pl_proxy)}}</td>
     <td>${{fmt.number(row.confidence_score)}}</td>
     <td>${{fmt.number(row.risk_score)}}</td>
     <td>${{fmt.percent(row.position_weight)}}</td>
