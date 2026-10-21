@@ -125,7 +125,11 @@ def _seed_prices(config: AppConfig, *tickers: str) -> None:
 
 
 class Phase14FSignalCoverageApiTests(unittest.TestCase):
-    def test_signal_and_coverage_endpoints_handle_empty_state(self) -> None:
+    @patch(
+        "target_opportunity_monitor.ibkr_provider._import_ibapi",
+        return_value=(None, None, None, None),
+    )
+    def test_signal_and_coverage_endpoints_handle_empty_state(self, _mock_ibapi) -> None:
         config = _initialized_config("empty_state")
 
         signal_code, signal_payload = handle_api_request(config, "GET", "/api/signals/status")
@@ -159,6 +163,25 @@ class Phase14FSignalCoverageApiTests(unittest.TestCase):
         )
         self.assertEqual(account_group["counts"]["valid_option_position_rows"], 0)
         self.assertIn("empty_options_positions", account_group["blockers"])
+
+    def test_empty_state_reports_missing_optional_provider(self) -> None:
+        config = _initialized_config("empty_state_missing_provider")
+        with patch(
+            "target_opportunity_monitor.ibkr_provider._import_ibapi",
+            return_value=(None, None, None, "No module named 'ibapi'"),
+        ):
+            code, payload = handle_api_request(config, "GET", "/api/coverage/status")
+
+        self.assertEqual(code, 200)
+        self.assertTrue(payload["ok"])
+        account_group = payload["data"]["group_map"]["account_options_context"]
+        self.assertEqual(account_group["status"], "provider_key_or_export_required")
+        self.assertIn("ibapi_missing", account_group["blockers"])
+        self.assertIn("empty_options_positions", account_group["blockers"])
+        self.assertEqual(
+            account_group["counts"]["option_position_readiness_status"],
+            "source_data_required",
+        )
 
     def test_api_status_lists_new_read_only_routes(self) -> None:
         config = _initialized_config("api_status_routes")

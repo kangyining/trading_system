@@ -79,14 +79,14 @@ def seed_synthetic_data(config, today: date) -> None:
                 ticker=ticker, fiscal_period_end=f"{year}-12-31", fiscal_period="FY",
                 report_type="annual", currency="USD", revenue=1_000_000_000 * scale,
                 operating_income=150_000_000 * scale, ebitda=180_000_000 * scale,
-                net_income=120_000_000 * scale, diluted_eps=5 * scale,
+                net_income=120_000_000 * scale, diluted_eps=1.2 * scale,
                 free_cash_flow=100_000_000 * scale, net_debt=100_000_000,
                 total_equity=500_000_000, shares_outstanding=100_000_000,
                 source="review_fixture", as_of_date=today.isoformat(), effective_date=today.isoformat(),
             ))
         upsert_estimate(config.database_path, Estimate(
             ticker=ticker, estimate_date=today.isoformat(), fiscal_period_end=f"{today.year + 1}-12-31",
-            metric="eps", consensus_mean=6 * (1 + index * 0.15), revision_1m=0.03,
+            metric="eps", consensus_mean=1.44 * (1 + index * 0.15), revision_1m=0.03,
             revision_3m=0.05, source="review_fixture", as_of_date=today.isoformat(),
             effective_date=today.isoformat(),
         ))
